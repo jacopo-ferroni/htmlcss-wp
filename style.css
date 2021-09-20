@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-weight: 100;
 }
 
 .container {
@@ -152,8 +153,6 @@
 }
 
 footer{
-height: 50px; /*simula il contenuto*/
-background-color:rebeccapurple;
 margin-top: 20px;
 }
 
