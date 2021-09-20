@@ -16,12 +16,17 @@
     color: rgb(177, 177, 177);
 }
 
-/*TODO levare tutte le dimensioni alle sezioni */
-/* TODO levare titti i background color */
-
 .header img {
     width: 165px;
     display: inline-block;
+}
+
+.opacity1 {
+    color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    height: 425px;
+    width: 80%;
+    margin: auto;
 }
 
 .header ul {
@@ -71,6 +76,7 @@
 
 .title {
     color: black;
+    display: block;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -118,10 +124,6 @@
     padding-bottom: 10px;
 }
 
-/* .secondmain-container {
-    background-color: dodgerblue;
-} */
-
 /* margin bottom */
 .mb{
     margin-bottom: 20px;
@@ -162,6 +164,10 @@ margin-top: 20px;
 
 footer p {
     text-align: center;
+}
+
+aside, center {
+    display: block;
 }
 
 /* TODO come fare l'opacità? */
