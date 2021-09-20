@@ -22,11 +22,10 @@
 }
 
 .opacity1 {
+    position: relative;
+    height: 100%;
+    width: 100%;
     color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    height: 425px;
-    width: 80%;
-    margin: auto;
 }
 
 .header ul {
