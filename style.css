@@ -38,9 +38,17 @@
     color: rgb(177, 177, 177);
 }
 
+.text-color {
+    color: rgb(177, 177, 177);
+}
+
 .header ul li a:hover {
     color: black;
+}
 
+.header-main{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .first-text-banner {
@@ -60,15 +68,40 @@
     font-size: large;
 }
 
-.banner1{
-    height: 425px;
-    background-image: url(./img/banner.jpg);
-    background-position-y: center;
-    position: relative;
+.title {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.first-main {
-    color: rgba(0, 0, 0, 0.5);
+.banner1{
+    height: 425px;
+    background: url(./img/banner.jpg) no-repeat;
+    background-position-y: center;
+    position: relative;
+    background-size: cover;
+}
+
+.aside-right-img {
+    height: 240px;
+    background: url(./img/img-1.jpg) no-repeat;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.center-img {
+    height: 240px;
+    background: url(./img/banner-2.jpg) no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.aside-left-img {
+    height: 240px;
+    background: url(./img/img-3.jpg) no-repeat;
+    background-position-y: center;
+    background-size: cover;
 }
 
 .radius {
@@ -84,14 +117,9 @@
     padding-bottom: 10px;
 }
 
-.secondmain-container {
+/* .secondmain-container {
     background-color: dodgerblue;
-}
-
-.header-main {
-    height: 50px; /*simula il contenuto */
-    background-color: lightskyblue;
-}
+} */
 
 /* margin bottom */
 .mb{
@@ -100,17 +128,15 @@
 
 .aside-right {
     width: 24%;
-    background-color: lightskyblue;
+    color: rgba(0, 0, 0, 0.3);
 }
 
 .aside-left {
     width: 24%;
-    background-color: lightskyblue;
 }
 
 .center {
     width: 50%;
-    background-color: lightskyblue;
     margin-left: 1%;
     margin-right: 1%;
 }
@@ -130,3 +156,16 @@ height: 50px; /*simula il contenuto*/
 background-color:rebeccapurple;
 margin-top: 20px;
 }
+
+.heart {
+    color: red;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* TODO come fare l'opacità? */
+/* TODO spazio tra i titoletti e il testo */
+/* TODO vertical align footer */
+/* TODO regolazione img */
