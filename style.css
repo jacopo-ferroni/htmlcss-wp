@@ -6,7 +6,7 @@
 }
 
 .container {
-    width: 80%;
+    max-width: 1200px;
     margin: 20px auto;
     background-color: white;
     font-family: 'Cabin', sans-serif;
@@ -21,11 +21,48 @@
     display: inline-block;
 }
 
-.opacity1 {
-    position: relative;
-    height: 100%;
+.banner1::before {
+    content: "";
     width: 100%;
-    color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.aside-right-img::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.center-img::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.aside-left-img::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .header ul {
@@ -74,6 +111,7 @@
 }
 
 .title {
+    font-size: 20px;
     color: black;
     display: block;
     padding-top: 10px;
@@ -93,6 +131,7 @@
     background: url(./img/img-1.jpg) no-repeat;
     background-position-y: center;
     background-size: cover;
+    position: relative;
 }
 
 .center-img {
@@ -101,6 +140,7 @@
     background-position-y: center;
     background-position-x: center;
     background-size: cover;
+    position: relative;
 }
 
 .aside-left-img {
@@ -108,6 +148,7 @@
     background: url(./img/img-3.jpg) no-repeat;
     background-position-y: center;
     background-size: cover;
+    position: relative;
 }
 
 .radius {
@@ -130,7 +171,6 @@
 
 .aside-right {
     width: 24%;
-    color: rgba(0, 0, 0, 0.3);
 }
 
 .aside-left {
@@ -169,7 +209,4 @@ aside, center {
     display: block;
 }
 
-/* TODO come fare l'opacità? */
-/* TODO spazio tra i titoletti e il testo */
-/* TODO vertical align footer */
 /* TODO regolazione img */
